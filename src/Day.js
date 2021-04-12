@@ -80,23 +80,23 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: '#4291EF'
+    backgroundColor: '#FFC701'
   },
   beginDayContainer: {
     height: 40,
     borderTopLeftRadius: 20,
     borderBottomLeftRadius: 20,
-    backgroundColor: '#4291EF'
+    backgroundColor: '#FFC701'
   },
   middleDayContainer: {
     height: 40,
-    backgroundColor: '#4291EF'
+    backgroundColor: '#FFC701'
   },
   endDayContainer: {
     height: 40,
     borderTopRightRadius: 20,
     borderBottomRightRadius: 20,
-    backgroundColor: '#4291EF'
+    backgroundColor: '#FFC701'
   },
   dayText: {
     fontSize: 15,
