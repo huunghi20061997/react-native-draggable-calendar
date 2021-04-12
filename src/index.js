@@ -316,7 +316,7 @@ export class DraggableCalendar extends Component {
     const {headerContainerStyle, headerTextStyle} = this.props;
     return (
       <View style={[styles.headerContainer, headerContainerStyle]}>
-        {['日', '一', '二', '三', '四', '五', '六'].map(item => (
+        {['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'].map(item => (
           <Text key={item} style={[styles.headerText, headerTextStyle]}>{item}</Text>
         ))}
       </View>
@@ -440,7 +440,7 @@ const styles = StyleSheet.create({
   headerText: {
     flex: 1,
     fontSize: 14,
-    color: '#333',
+    color: '#FFC701',
     textAlign: 'center'
   },
   bodyContainer: {
