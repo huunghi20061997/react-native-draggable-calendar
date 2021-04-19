@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   dayText: {
     fontSize: 15,
-    color: '#333'
+    color: '#FFF'
   },
   selectedDayText: {
     color: '#FFF'
